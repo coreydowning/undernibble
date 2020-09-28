@@ -1,16 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <AddonList />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AddonList from "./components/AddonList.vue"
 
 export default {
-  name: 'App',
+  name: "UnderNibble",
   components: {
-    HelloWorld
-  }
+    AddonList,
+  },
 }
 </script>
 
